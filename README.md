@@ -25,24 +25,24 @@ String latin = Translit.translit("Съешь ещё этих мягких фра
 ```
 
 
-###Schema comparison
+### Schema comparison
 Only Russian language supported now. Other cyrillic languages are not implemented
 
 How this sentence to be transliterated:
 
 `Съешь ещё этих мягких французских булок, да выпей чаю`
 
-######ICAO DOC 9309
+###### ICAO DOC 9309
 `Sieesh eshche etikh miagkikh frantsuzskikh bulok, da vypei chaiu`
 
-######ISO 9:1995 and GOST 7.79-2000 System A 
+###### ISO 9:1995 and GOST 7.79-2000 System A 
 `Sʺešʹ eŝë ètih mâgkih francuzskih bulok, da vypej čaû`
 
-######ISO 9:1995 and GOST 7.79-2000 System B
+###### ISO 9:1995 and GOST 7.79-2000 System B
 `S``esh` eshhyo e`tix myagkix franczuzskix bulok, da vy`pej chayu` 
 
 
-###Upper case characters
+### Upper case characters
 Upper case characters are transliterated with only first letter in upper case, e.g.
 * Юрий -> Iurii (ISO 9)
 * ДЮСШ -> DIuSSh
